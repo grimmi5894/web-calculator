@@ -7,9 +7,15 @@
   </head>
   <body>
     <h1>Web Calculator</h1>
-    <h3>Enter 2 Numbers To Add Together</h3>
+    <h3>Enter 2 Numbers To Add, Subtract, Multiply or Divide</h3>
     <form onsubmit="addNumbers()">
       <input type="text" name="number1" id="number1" value=""/>
+      <select id="operator" name="operator">
+        <option value="Add">+</option>
+        <option value="Subtract">-</option>
+        <option value="Multiply">*</option>
+        <option value="Divide">/</option>
+      </select>
       <input type="text" name="number2" id="number2" value=""/>
       <input type="submit" />
     </form>
