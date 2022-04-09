@@ -1,0 +1,14 @@
+h1, h3 {
+  color: red;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+  background-color: paleturquoise;
+  color: blue;
+  height: 65px;
+  width: 65px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
